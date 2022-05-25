@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
+const dev = process.env.NODE_ENV !== "production";
+
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: "/anime-soundboard",
+  assetPrefix: (!dev) ? "/anime-soundboard" : "",
 };
 
 module.exports = nextConfig
