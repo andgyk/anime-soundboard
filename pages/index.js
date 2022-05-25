@@ -15,7 +15,7 @@ export default function Home() {
       <title>Anime Soundboard | Andgyk</title>
     </Head>
     
-      <div className="text-center text-white mt-52">
+      <div className="text-center text-white mt-52 mb-24">
         <div>
           <h1 className="text-4xl font-bold">
             Anime <span className="text-pink-400">Soundboard</span>
