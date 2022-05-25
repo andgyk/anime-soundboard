@@ -28,6 +28,7 @@ export default function Home() {
 
         <div className="mt-12 flex flex-wrap justify-center">
           <SoundBoxComponent text="Ara Ara" id="ara-ara-audio" />
+          <SoundBoxComponent text="Ganbare x2 Senpai" id="ganbare-ganbare-senpai-audio" />
           <SoundBoxComponent text="Konichiwa (Hashira)" id="hasira-konichiwa-audio" />
           <SoundBoxComponent text="Nani" id="nani-audio" />
           <SoundBoxComponent text="Ow (Rikka)" id="rikka-ow-audio" />
