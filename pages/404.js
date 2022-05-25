@@ -8,6 +8,7 @@ export default function NotFound() {
                 <meta name="title" content="Anime Soundboard | 404"></meta>
                 <meta name="description" content="Page not found"></meta>
                 <meta name="theme-color" content="#FF0000"></meta>
+                <title>Anime Soundboard | 404</title>
             </Head>
 
             <h1 className="text-9xl font-mono">404</h1>

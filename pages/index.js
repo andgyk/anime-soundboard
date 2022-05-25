@@ -12,6 +12,7 @@ export default function Home() {
       <meta name="keywords" content="anime, soundboard, anime soundboard, instant button, anime sounds and effects"></meta>
       <meta name="author" content="Andgyk"></meta>
       <meta name="robots" content="noindex"></meta>
+      <title>Anime Soundboard | Andgyk</title>
     </Head>
     
       <div className="text-center text-white mt-52">
