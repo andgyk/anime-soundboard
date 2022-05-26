@@ -13,6 +13,7 @@ export default function Home() {
       <meta name="author" content="Andgyk"></meta>
       <meta name="robots" content="noindex"></meta>
       <title>Anime Soundboard | Andgyk</title>
+      <link rel="shortcut icon" href="./favicon.ico"></link>
     </Head>
     
       <div className="text-center text-white mt-52 mb-24">
