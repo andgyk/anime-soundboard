@@ -13,7 +13,7 @@ export default function NotFound() {
 
             <h1 className="text-9xl font-mono">404</h1>
             <p className="text-4xl text-red-400">We are lost in the void <span className="text-white">:(</span></p>
-            <Link href="./">
+            <Link href="/anime-soundboard">
                 <button className="mt-4 px-12 py-3 hover:bg-blue-800 rounded-full border-4 border-blue-800 transition">Go back home</button>
             </Link>
         </div>
