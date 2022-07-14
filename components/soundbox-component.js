@@ -2,12 +2,14 @@ import { useState } from "react";
 
 export default function SoundBoxComponent({ text, id }) {
     const [isPlaying, setPlaying] = useState(false);
-    /** @type {HTMLAudioElement} */
     
     const onClick = () => {
+        /** @type {HTMLAudioElement} */
         const track = document.getElementById(id);
 
-        if (isPlaying && track !== null) track.currentTime = 0;
+        if (isPlaying && track !== null) {
+            track.currentTime = 0
+        };
 
         track.addEventListener("ended", () => {
             return setPlaying(false);

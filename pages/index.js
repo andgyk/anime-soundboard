@@ -34,6 +34,7 @@ export default function Home() {
           <SoundBoxComponent text="Nani" id="nani-audio" />
           <SoundBoxComponent text="Ow (Rikka)" id="rikka-ow-audio" />
           <SoundBoxComponent text="Ultra Instinct" id="ultra-instinct-audio" />
+          <SoundBoxComponent text="UwU (Hannah)" id="uwu-audio" />
           <SoundBoxComponent text="Yemete Kudasai" id="yemete-audio" />
           <SoundBoxComponent text="Yemete Kudasai Ah" id="yemete2-audio" />
           <SoundBoxComponent text="Yukki (Yuno)" id="yuno-yukki-audio" />
